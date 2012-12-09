@@ -1,3 +1,5 @@
+**Look into https://github.com/ronanguilloux/php-gpio for a proper way to do this, the following library is a simplistic way to do it.**
+
 This is version 1.0 of the PHP-GPIO.
 
 It is a simple PHP library to alloww access to the GPIO on the Raspberry Pi.
