@@ -3,8 +3,8 @@
 
         echo "Setting up Pins 17 and 22\n";
         $gpio = new GPIO();
-        $gpio->setup(17, "out");
-        $gpio->setup(22, "out");
+        $gpio->setup(17, GPIO::DIRECTION_OUT);
+        $gpio->setup(22, GPIO::DIRECTION_OUT);
 
         echo "Turning on Pins 17 and 22\n";
         $gpio->output(17, 1);
